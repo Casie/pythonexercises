@@ -1,8 +1,9 @@
 def factorial(n):
 	result = 1
-	while n>=1:
-		result = result * n
-		n = n-1
-	return result
-
+	while True:
+		if i>n:
+			break
+		print i
+		i = i+1
+		
 print factorial(10)	
