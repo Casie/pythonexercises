@@ -9,3 +9,18 @@ def get_next_target(page):
 	#first value returned goes to url, second goes to endpos
 url, endpos = get_next_target(page)
 print url
+page = page[endpos:]
+#keep going until url is None
+
+def print_all_links(page):
+	while True:
+		url, endpos = get_next_target(page)
+		if url:
+			print url
+			page = page[endpos:]
+		else:
+			break	
+
+	
+#print get_page(get_page(HTML))	
+#print_all_link(get_page(HTML))		
