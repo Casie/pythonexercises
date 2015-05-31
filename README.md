@@ -1,1 +1,3 @@
 # pythonexercises
+# pythonblog
+# pythonblog
