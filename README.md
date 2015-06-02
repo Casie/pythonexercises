@@ -1,3 +1,4 @@
 # pythonexercises
 # pythonblog
 # pythonblog
+# djangostore
